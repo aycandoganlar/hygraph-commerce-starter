@@ -51,7 +51,7 @@ function Footer({ categories = [], collections = [] }) {
                           }`}
                         >
                           <a className="text-base text-gray-500 hover:text-gray-900">
-                            {category.name.toUpperCase}
+                            {category.name.toUpperCase()}
                           </a>
                         </Link>
                       </li>
